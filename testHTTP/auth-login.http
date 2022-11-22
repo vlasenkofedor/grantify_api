@@ -1,0 +1,7 @@
+POST https://admin-monday.devxqa.com/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@admin-monday.devxqa.com",
+  "password": "Re4j!xno9zB"
+}

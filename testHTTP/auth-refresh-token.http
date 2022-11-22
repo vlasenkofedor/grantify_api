@@ -1,0 +1,2 @@
+GET http://admin-monday.devxqa.com/api/auth/refresh-token
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTY2NzQzMzk0MCwiZXhwIjoxNjY3NTIwMzQwfQ.tuf-4K9xJB-MuKTDX5MbuEY5aL9Mv18bq26tTO74y2E

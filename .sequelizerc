@@ -1,0 +1,20 @@
+const path = require('path');
+const {apps} = require('./pm2.config');
+const {env} = apps[0];
+const config = {
+    dialect: env.dbDialect,
+    database: env.dbDatabase,
+    username: env.dbUserName,
+    password: env.dbPassword,
+    port: env.dbPort,
+    host: env.dbHost
+}
+module.exports.default = config;
+module.exports = {
+    //'config': {'development': config},
+    'env': 'development',
+    'models-path': path.resolve('db', 'models'),
+    'seeders-path': path.resolve('db', 'seeders'),
+    'migrations-path': path.resolve('db', 'migrations'),
+    'url': `${config.dialect}://${config.username}:${config.password}:@${config.host}:${config.port}/${config.database}`
+}

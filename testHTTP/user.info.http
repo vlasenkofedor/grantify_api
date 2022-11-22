@@ -1,0 +1,2 @@
+GET http://admin-monday.devxqa.com/api/user
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTY2ODczNTkzOCwiZXhwIjoxNjY4NzY1OTM4fQ.09d2PlLShL3RTY3Ml-66Qa30KIDm4yc3UT-tcfnxDQo
